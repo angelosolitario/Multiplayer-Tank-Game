@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="csc413-tankgame-angelosolitario:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e7c7869-0281-40cb-92f9-02f079431f85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_angelosolitario_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-angelosolitario/Engines/GameEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-angelosolitario/Engines/GameWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/SoundEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/SoundEngine.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-737307927">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="10" />
+          <entry key="java" value="656" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="656" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="24" />
+          <entry key="uml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="24" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Bullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tank Diagram.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="126.82503092145947" y="664.0">Game.TankControl</node>
+                <node x="0.0" y="565.0">Game.SoundEngine</node>
+                <node x="419.07241960420527" y="277.0">Game.Player</node>
+                <node x="164.83333333333331" y="277.0">Game.GameAnimation</node>
+                <node x="294.23899196042055" y="565.0">Game.Bullet</node>
+                <node x="527.8224196042053" y="565.0">Game.GameFrame</node>
+                <node x="437.1308858998146" y="426.0">Game.GamePanel</node>
+                <node x="172.0141883116884" y="79.0">Game.Picture</node>
+                <node x="431.5141883116884" y="79.0">Game.Wall</node>
+                <node x="318.8333333333333" y="188.0">Game.Tank</node>
+                <node x="408.5141883116884" y="0.0">Game.ImageObject</node>
+                <node x="84.33333333333331" y="743.0">Game.TankGame</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Game.TankControl" target="Game.GamePanel">
+                  <point x="49.00000000000003" y="-14.5" />
+                  <point x="231.8250309214595" y="644.0" />
+                  <point x="517.3224196042053" y="644.0" />
+                  <point x="517.3224196042053" y="535.0" />
+                  <point x="512.7308858998147" y="535.0" />
+                  <point x="21.600000000000023" y="14.5" />
+                </edge>
+                <edge source="Game.Bullet" target="Game.Tank">
+                  <point x="-2.75" y="-14.5" />
+                  <point x="329.98899196042055" y="485.0" />
+                  <point x="322.0151515151515" y="485.0" />
+                  <point x="322.0151515151515" y="237.0" />
+                  <point x="324.04761904761904" y="237.0" />
+                  <point x="-31.285714285714278" y="14.5" />
+                </edge>
+                <edge source="Game.TankControl" target="Game.GameAnimation">
+                  <point x="7.000000000000028" y="-14.5" />
+                  <point x="189.21421923314793" y="406.0" />
+                  <point x="175.91666666666663" y="406.0" />
+                  <point x="-55.416666666666686" y="14.5" />
+                </edge>
+                <edge source="Game.GamePanel" target="Game.ImageObject">
+                  <point x="49.09090909090912" y="-14.5" />
+                  <point x="540.2217949907238" y="406.0" />
+                  <point x="576.4490677179965" y="406.0" />
+                  <point x="576.4490677179965" y="49.0" />
+                  <point x="514.8475216450217" y="49.0" />
+                  <point x="48.333333333333314" y="14.5" />
+                </edge>
+                <edge source="Game.Tank" target="Game.Wall">
+                  <point x="29.19999999999999" y="-14.5" />
+                  <point x="384.5333333333333" y="158.0" />
+                  <point x="436.5141883116884" y="158.0" />
+                  <point x="-30.0" y="14.5" />
+                </edge>
+                <edge source="Game.TankGame" target="Game.TankControl">
+                  <point x="13.0" y="-14.5" />
+                  <point x="149.33333333333331" y="713.0" />
+                  <point x="182.82503092145947" y="713.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Game.GamePanel" target="Game.Player">
+                  <point x="9.818181818181813" y="-14.5" />
+                  <point x="500.9490677179964" y="326.0" />
+                  <point x="489.07241960420527" y="326.0" />
+                  <point x="30.0" y="14.5" />
+                </edge>
+                <edge source="Game.TankGame" target="Game.SoundEngine">
+                  <point x="-39.0" y="-14.5" />
+                  <point x="97.33333333333331" y="723.0" />
+                  <point x="26.866697588126158" y="723.0" />
+                  <point x="26.866697588126158" y="644.0" />
+                  <point x="14.75" y="644.0" />
+                  <point x="-44.25" y="14.5" />
+                </edge>
+                <edge source="Game.Bullet" target="Game.Player">
+                  <point x="19.25" y="-14.5" />
+                  <point x="351.98899196042055" y="515.0" />
+                  <point x="426.6308858998146" y="515.0" />
+                  <point x="426.6308858998146" y="406.0" />
+                  <point x="449.07241960420527" y="406.0" />
+                  <point x="-10.0" y="14.5" />
+                </edge>
+                <edge source="Game.Player" target="Game.Wall">
+                  <point x="30.0" y="-14.5" />
+                  <point x="489.07241960420527" y="257.0" />
+                  <point x="480.07241960420527" y="257.0" />
+                  <point x="480.07241960420527" y="158.0" />
+                  <point x="466.5141883116884" y="158.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Game.GameAnimation" target="Game.Picture">
+                  <point x="33.25" y="-14.5" />
+                  <point x="264.5833333333333" y="257.0" />
+                  <point x="227.8808858998146" y="257.0" />
+                  <point x="227.8808858998146" y="168.0" />
+                  <point x="223.34752164502174" y="168.0" />
+                  <point x="9.333333333333343" y="14.5" />
+                </edge>
+                <edge source="Game.GamePanel" target="Game.Wall">
+                  <point x="29.45454545454544" y="-14.5" />
+                  <point x="520.58543135436" y="386.0" />
+                  <point x="525.6091218305504" y="386.0" />
+                  <point x="525.6091218305504" y="138.0" />
+                  <point x="486.5141883116884" y="138.0" />
+                  <point x="20.0" y="14.5" />
+                </edge>
+                <edge source="Game.GamePanel" target="Game.GameAnimation">
+                  <point x="-49.090909090909065" y="-14.5" />
+                  <point x="442.0399768089055" y="386.0" />
+                  <point x="264.5833333333333" y="386.0" />
+                  <point x="33.25" y="14.5" />
+                </edge>
+                <edge source="Game.Wall" target="Game.ImageObject">
+                  <point x="-17.5" y="-14.5" />
+                  <point x="449.0141883116884" y="59.0" />
+                  <point x="456.84752164502174" y="59.0" />
+                  <point x="-9.666666666666686" y="14.5" />
+                </edge>
+                <edge source="Game.Tank" target="Game.Picture">
+                  <point x="-29.19999999999999" y="-14.5" />
+                  <point x="326.1333333333333" y="148.0" />
+                  <point x="242.01418831168843" y="148.0" />
+                  <point x="28.000000000000014" y="14.5" />
+                </edge>
+                <edge source="Game.TankControl" target="Game.SoundEngine">
+                  <point x="-48.99999999999997" y="-14.5" />
+                  <point x="133.8250309214595" y="644.0" />
+                  <point x="73.75" y="644.0" />
+                  <point x="14.75" y="14.5" />
+                </edge>
+                <edge source="Game.Bullet" target="Game.Wall">
+                  <point x="35.75" y="-14.5" />
+                  <point x="368.48899196042055" y="545.0" />
+                  <point x="555.6308858998145" y="545.0" />
+                  <point x="555.6308858998145" y="128.0" />
+                  <point x="496.5141883116884" y="128.0" />
+                  <point x="30.0" y="14.5" />
+                </edge>
+                <edge source="Game.TankControl" target="Game.Bullet">
+                  <point x="21.00000000000003" y="-14.5" />
+                  <point x="203.8250309214595" y="624.0" />
+                  <point x="332.73899196042055" y="624.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Game.Tank" target="Game.ImageObject">
+                  <point x="14.600000000000023" y="-14.5" />
+                  <point x="369.93333333333334" y="168.0" />
+                  <point x="372.57241960420527" y="168.0" />
+                  <point x="372.57241960420527" y="59.0" />
+                  <point x="437.5141883116884" y="59.0" />
+                  <point x="-29.0" y="14.5" />
+                </edge>
+                <edge source="Game.TankGame" target="Game.GameFrame">
+                  <point x="39.0" y="-14.5" />
+                  <point x="175.33333333333331" y="723.0" />
+                  <point x="583.8224196042053" y="723.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Game.Bullet" target="Game.GamePanel">
+                  <point x="24.75" y="-14.5" />
+                  <point x="357.48899196042055" y="525.0" />
+                  <point x="447.9308858998146" y="525.0" />
+                  <point x="-43.19999999999999" y="14.5" />
+                </edge>
+                <edge source="Game.GameFrame" target="Game.GamePanel">
+                  <point x="0.0" y="-14.5" />
+                  <point x="583.8224196042053" y="535.0" />
+                  <point x="534.3308858998146" y="535.0" />
+                  <point x="43.19999999999999" y="14.5" />
+                </edge>
+                <edge source="Game.GamePanel" target="Game.Tank">
+                  <point x="-9.818181818181813" y="-14.5" />
+                  <point x="481.3127040816328" y="346.0" />
+                  <point x="366.4232792207793" y="346.0" />
+                  <point x="10.428571428571445" y="14.5" />
+                </edge>
+                <edge source="Game.Player" target="Game.Tank">
+                  <point x="-10.0" y="-14.5" />
+                  <point x="449.07241960420527" y="247.0" />
+                  <point x="386.6190476190476" y="247.0" />
+                  <point x="31.285714285714278" y="14.5" />
+                </edge>
+                <edge source="Game.Bullet" target="Game.Picture">
+                  <point x="-8.25" y="-14.5" />
+                  <point x="324.48899196042055" y="495.0" />
+                  <point x="308.3333333333333" y="495.0" />
+                  <point x="308.3333333333333" y="158.0" />
+                  <point x="232.6808549783551" y="158.0" />
+                  <point x="18.666666666666686" y="14.5" />
+                </edge>
+                <edge source="Game.Bullet" target="Game.GameAnimation">
+                  <point x="-19.25" y="-14.5" />
+                  <point x="313.48899196042055" y="515.0" />
+                  <point x="216.76418831168843" y="515.0" />
+                  <point x="216.76418831168843" y="396.0" />
+                  <point x="220.25" y="396.0" />
+                  <point x="-11.083333333333329" y="14.5" />
+                </edge>
+                <edge source="Game.TankControl" target="Game.Picture">
+                  <point x="-6.999999999999972" y="-14.5" />
+                  <point x="175.8250309214595" y="614.0" />
+                  <point x="139.5" y="614.0" />
+                  <point x="139.5" y="148.0" />
+                  <point x="186.0141883116884" y="148.0" />
+                  <point x="-28.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.827020202020202" x="320.0" y="386.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/ImageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/TankGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Picture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/SoundEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/GameFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Tank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Wall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/GameAnimation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Engines/Main.java" />
+        <option value="$PROJECT_DIR$/src/Engines/GameEngine.java" />
+        <option value="$PROJECT_DIR$/src/Engines/GameWorld.java" />
+        <option value="$PROJECT_DIR$/src/Engines/KeyControl.java" />
+        <option value="$PROJECT_DIR$/src/Game/GameFrame.java" />
+        <option value="$PROJECT_DIR$/src/Game/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/Game/GamePanel.java" />
+        <option value="$PROJECT_DIR$/src/Game/SoundEngine.java" />
+        <option value="$PROJECT_DIR$/src/Game/Player.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1950" />
+    <option name="height" value="2075" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="csc413-tankgame-angelosolitario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-angelosolitario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-angelosolitario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-angelosolitario" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-angelosolitario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-angelosolitario" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544750190237" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Engines.GameEngine" />
+      <module name="csc413-tankgame-angelosolitario" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Game.TankGame" />
+      <module name="csc413-tankgame-angelosolitario" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e7c7869-0281-40cb-92f9-02f079431f85" name="Default Changelist" comment="" />
+      <created>1540256206272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540256206272</updated>
+      <workItem from="1540256210876" duration="807000" />
+      <workItem from="1540257099418" duration="632000" />
+      <workItem from="1540270487066" duration="1487000" />
+      <workItem from="1540351597578" duration="33000" />
+      <workItem from="1542873836468" duration="103000" />
+      <workItem from="1542874038343" duration="117000" />
+      <workItem from="1542875313845" duration="342000" />
+      <workItem from="1542875674400" duration="337000" />
+      <workItem from="1542876055848" duration="167000" />
+      <workItem from="1542919364418" duration="1958000" />
+      <workItem from="1544735712260" duration="6286000" />
+      <workItem from="1544750122820" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12340000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29577464" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32761088" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/out/production/csc413-tankgame-angelosolitario/Engines/Main.class" />
+    <entry file="file://$PROJECT_DIR$/csc413-tankgame-angelosolitario.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/GameEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/Engines/GameWorld.java" />
+    <entry file="file://$PROJECT_DIR$/src/Engines/KeyControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/TankControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/ImageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/TankGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/SoundEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/GameAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tank Diagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="126.82503092145947" y="664.0">Game.TankControl</node>
+            <node x="0.0" y="565.0">Game.SoundEngine</node>
+            <node x="419.07241960420527" y="277.0">Game.Player</node>
+            <node x="164.83333333333331" y="277.0">Game.GameAnimation</node>
+            <node x="294.23899196042055" y="565.0">Game.Bullet</node>
+            <node x="527.8224196042053" y="565.0">Game.GameFrame</node>
+            <node x="437.1308858998146" y="426.0">Game.GamePanel</node>
+            <node x="172.0141883116884" y="79.0">Game.Picture</node>
+            <node x="431.5141883116884" y="79.0">Game.Wall</node>
+            <node x="318.8333333333333" y="188.0">Game.Tank</node>
+            <node x="408.5141883116884" y="0.0">Game.ImageObject</node>
+            <node x="84.33333333333331" y="743.0">Game.TankGame</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Game.TankControl" target="Game.GamePanel">
+              <point x="49.00000000000003" y="-14.5" />
+              <point x="231.8250309214595" y="644.0" />
+              <point x="517.3224196042053" y="644.0" />
+              <point x="517.3224196042053" y="535.0" />
+              <point x="512.7308858998147" y="535.0" />
+              <point x="21.600000000000023" y="14.5" />
+            </edge>
+            <edge source="Game.Bullet" target="Game.Tank">
+              <point x="-2.75" y="-14.5" />
+              <point x="329.98899196042055" y="485.0" />
+              <point x="322.0151515151515" y="485.0" />
+              <point x="322.0151515151515" y="237.0" />
+              <point x="324.04761904761904" y="237.0" />
+              <point x="-31.285714285714278" y="14.5" />
+            </edge>
+            <edge source="Game.TankControl" target="Game.GameAnimation">
+              <point x="7.000000000000028" y="-14.5" />
+              <point x="189.21421923314793" y="406.0" />
+              <point x="175.91666666666663" y="406.0" />
+              <point x="-55.416666666666686" y="14.5" />
+            </edge>
+            <edge source="Game.GamePanel" target="Game.ImageObject">
+              <point x="49.09090909090912" y="-14.5" />
+              <point x="540.2217949907238" y="406.0" />
+              <point x="576.4490677179965" y="406.0" />
+              <point x="576.4490677179965" y="49.0" />
+              <point x="514.8475216450217" y="49.0" />
+              <point x="48.333333333333314" y="14.5" />
+            </edge>
+            <edge source="Game.Tank" target="Game.Wall">
+              <point x="29.19999999999999" y="-14.5" />
+              <point x="384.5333333333333" y="158.0" />
+              <point x="436.5141883116884" y="158.0" />
+              <point x="-30.0" y="14.5" />
+            </edge>
+            <edge source="Game.TankGame" target="Game.TankControl">
+              <point x="13.0" y="-14.5" />
+              <point x="149.33333333333331" y="713.0" />
+              <point x="182.82503092145947" y="713.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Game.GamePanel" target="Game.Player">
+              <point x="9.818181818181813" y="-14.5" />
+              <point x="500.9490677179964" y="326.0" />
+              <point x="489.07241960420527" y="326.0" />
+              <point x="30.0" y="14.5" />
+            </edge>
+            <edge source="Game.TankGame" target="Game.SoundEngine">
+              <point x="-39.0" y="-14.5" />
+              <point x="97.33333333333331" y="723.0" />
+              <point x="26.866697588126158" y="723.0" />
+              <point x="26.866697588126158" y="644.0" />
+              <point x="14.75" y="644.0" />
+              <point x="-44.25" y="14.5" />
+            </edge>
+            <edge source="Game.Bullet" target="Game.Player">
+              <point x="19.25" y="-14.5" />
+              <point x="351.98899196042055" y="515.0" />
+              <point x="426.6308858998146" y="515.0" />
+              <point x="426.6308858998146" y="406.0" />
+              <point x="449.07241960420527" y="406.0" />
+              <point x="-10.0" y="14.5" />
+            </edge>
+            <edge source="Game.Player" target="Game.Wall">
+              <point x="30.0" y="-14.5" />
+              <point x="489.07241960420527" y="257.0" />
+              <point x="480.07241960420527" y="257.0" />
+              <point x="480.07241960420527" y="158.0" />
+              <point x="466.5141883116884" y="158.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Game.GameAnimation" target="Game.Picture">
+              <point x="33.25" y="-14.5" />
+              <point x="264.5833333333333" y="257.0" />
+              <point x="227.8808858998146" y="257.0" />
+              <point x="227.8808858998146" y="168.0" />
+              <point x="223.34752164502174" y="168.0" />
+              <point x="9.333333333333343" y="14.5" />
+            </edge>
+            <edge source="Game.GamePanel" target="Game.Wall">
+              <point x="29.45454545454544" y="-14.5" />
+              <point x="520.58543135436" y="386.0" />
+              <point x="525.6091218305504" y="386.0" />
+              <point x="525.6091218305504" y="138.0" />
+              <point x="486.5141883116884" y="138.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
+            <edge source="Game.GamePanel" target="Game.GameAnimation">
+              <point x="-49.090909090909065" y="-14.5" />
+              <point x="442.0399768089055" y="386.0" />
+              <point x="264.5833333333333" y="386.0" />
+              <point x="33.25" y="14.5" />
+            </edge>
+            <edge source="Game.Wall" target="Game.ImageObject">
+              <point x="-17.5" y="-14.5" />
+              <point x="449.0141883116884" y="59.0" />
+              <point x="456.84752164502174" y="59.0" />
+              <point x="-9.666666666666686" y="14.5" />
+            </edge>
+            <edge source="Game.Tank" target="Game.Picture">
+              <point x="-29.19999999999999" y="-14.5" />
+              <point x="326.1333333333333" y="148.0" />
+              <point x="242.01418831168843" y="148.0" />
+              <point x="28.000000000000014" y="14.5" />
+            </edge>
+            <edge source="Game.TankControl" target="Game.SoundEngine">
+              <point x="-48.99999999999997" y="-14.5" />
+              <point x="133.8250309214595" y="644.0" />
+              <point x="73.75" y="644.0" />
+              <point x="14.75" y="14.5" />
+            </edge>
+            <edge source="Game.Bullet" target="Game.Wall">
+              <point x="35.75" y="-14.5" />
+              <point x="368.48899196042055" y="545.0" />
+              <point x="555.6308858998145" y="545.0" />
+              <point x="555.6308858998145" y="128.0" />
+              <point x="496.5141883116884" y="128.0" />
+              <point x="30.0" y="14.5" />
+            </edge>
+            <edge source="Game.TankControl" target="Game.Bullet">
+              <point x="21.00000000000003" y="-14.5" />
+              <point x="203.8250309214595" y="624.0" />
+              <point x="332.73899196042055" y="624.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Game.Tank" target="Game.ImageObject">
+              <point x="14.600000000000023" y="-14.5" />
+              <point x="369.93333333333334" y="168.0" />
+              <point x="372.57241960420527" y="168.0" />
+              <point x="372.57241960420527" y="59.0" />
+              <point x="437.5141883116884" y="59.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+            <edge source="Game.TankGame" target="Game.GameFrame">
+              <point x="39.0" y="-14.5" />
+              <point x="175.33333333333331" y="723.0" />
+              <point x="583.8224196042053" y="723.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Game.Bullet" target="Game.GamePanel">
+              <point x="24.75" y="-14.5" />
+              <point x="357.48899196042055" y="525.0" />
+              <point x="447.9308858998146" y="525.0" />
+              <point x="-43.19999999999999" y="14.5" />
+            </edge>
+            <edge source="Game.GameFrame" target="Game.GamePanel">
+              <point x="0.0" y="-14.5" />
+              <point x="583.8224196042053" y="535.0" />
+              <point x="534.3308858998146" y="535.0" />
+              <point x="43.19999999999999" y="14.5" />
+            </edge>
+            <edge source="Game.GamePanel" target="Game.Tank">
+              <point x="-9.818181818181813" y="-14.5" />
+              <point x="481.3127040816328" y="346.0" />
+              <point x="366.4232792207793" y="346.0" />
+              <point x="10.428571428571445" y="14.5" />
+            </edge>
+            <edge source="Game.Player" target="Game.Tank">
+              <point x="-10.0" y="-14.5" />
+              <point x="449.07241960420527" y="247.0" />
+              <point x="386.6190476190476" y="247.0" />
+              <point x="31.285714285714278" y="14.5" />
+            </edge>
+            <edge source="Game.Bullet" target="Game.Picture">
+              <point x="-8.25" y="-14.5" />
+              <point x="324.48899196042055" y="495.0" />
+              <point x="308.3333333333333" y="495.0" />
+              <point x="308.3333333333333" y="158.0" />
+              <point x="232.6808549783551" y="158.0" />
+              <point x="18.666666666666686" y="14.5" />
+            </edge>
+            <edge source="Game.Bullet" target="Game.GameAnimation">
+              <point x="-19.25" y="-14.5" />
+              <point x="313.48899196042055" y="515.0" />
+              <point x="216.76418831168843" y="515.0" />
+              <point x="216.76418831168843" y="396.0" />
+              <point x="220.25" y="396.0" />
+              <point x="-11.083333333333329" y="14.5" />
+            </edge>
+            <edge source="Game.TankControl" target="Game.Picture">
+              <point x="-6.999999999999972" y="-14.5" />
+              <point x="175.8250309214595" y="614.0" />
+              <point x="139.5" y="614.0" />
+              <point x="139.5" y="148.0" />
+              <point x="186.0141883116884" y="148.0" />
+              <point x="-28.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.827020202020202" x="320.0" y="386.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>csc413-tankgame-angelosolitario:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>csc413-tankgame-angelosolitario</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

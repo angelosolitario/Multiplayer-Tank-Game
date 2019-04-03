@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="232.0">Game.TankControl</node>
+    <node x="157.0" y="153.0">Game.SoundEngine</node>
+    <node x="0.0" y="380.0">Game.Player</node>
+    <node x="208.0" y="0.0">Game.GameAnimation</node>
+    <node x="236.0" y="79.0">Game.Bullet</node>
+    <node x="0.0" y="306.0">Game.GameFrame</node>
+    <node x="2.0000000000000284" y="153.0">Game.GamePanel</node>
+    <node x="306.0" y="306.0">Game.Picture</node>
+    <node x="0.0" y="79.0">Game.Wall</node>
+    <node x="90.0" y="79.0">Game.Tank</node>
+    <node x="22.75" y="0.0">Game.ImageObject</node>
+    <node x="157.0" y="306.0">Game.TankGame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Game.TankControl" target="Game.GamePanel">
+      <point x="2.8421709430404007E-14" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Game.Wall" target="Game.ImageObject">
+      <point x="0.0" y="-14.5" />
+      <point x="35.0" y="54.0" />
+      <point x="51.75" y="54.0" />
+      <point x="-29.0" y="14.5" />
+    </edge>
+    <edge source="Game.Tank" target="Game.ImageObject">
+      <point x="0.0" y="-14.5" />
+      <point x="126.5" y="54.0" />
+      <point x="109.75" y="54.0" />
+      <point x="29.0" y="14.5" />
+    </edge>
+    <edge source="Game.Bullet" target="Game.GameAnimation">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
