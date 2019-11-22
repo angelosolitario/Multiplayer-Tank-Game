@@ -4,13 +4,13 @@
 
 
 # Instructions
-Movements|TANK 1 | TANK 2
---------|-------|
-UP | W | up
-DOWN | S | down
-LEFT | A | left 
-RIGHT | D | right
-SHOOT | Space | Enter
+|Movements|TANK 1 | TANK 2|
+|---------|-------|-------|
+|UP       | W     |up     |
+|DOWN     | S     |down   |
+|LEFT     | A     | left  |
+|RIGHT    | D     | right |
+|SHOOT    | Space | Enter |
 
 
 * The goal of the game is to destroy the other tank until it does not have any more lives.
