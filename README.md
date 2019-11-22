@@ -1,6 +1,6 @@
 # Multiplayer Tank Game
 * Developed a tank game using Java and Java GUI
-* Implemented using Object Oriented Principles
+* Implemented using Object Oriented Principles in Java
 
 
 # Instructions
